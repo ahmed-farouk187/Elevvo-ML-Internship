@@ -5,7 +5,7 @@ In this task I predicted which of 7 types of forest cover grows on a patch of la
 Dataset: Covertype from the UCI Machine Learning Repository
 https://archive.ics.uci.edu/dataset/31/covertype
 
-The notebook loads the UCI file covtype.data. The file has no column names, so they are added in the code.
+The notebook loads the data with scikit-learn's fetch_covtype, which downloads this same UCI dataset. The original UCI file is also included here as covtype.data.gz.
 
 Libraries used: pandas, numpy, matplotlib, scikit-learn, xgboost
 
@@ -32,4 +32,4 @@ Elevation was the most important feature, followed by the distances to roads, fi
 
 ## How to run
 
-Download covtype.data from the UCI link above, put it in the same folder as the notebook (or upload it in Colab) and run all the cells. Training takes a few minutes.
+Open the notebook in Google Colab or Jupyter and run all the cells. The data downloads automatically, so no file upload is needed. Training takes a few minutes.
